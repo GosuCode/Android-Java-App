@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Alu the Great</string>
+
+    //TextViews
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+
+    //Hint
+    <string name="email_hint">example@gmail.com</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="username_hint">username</string>
+
+    //Button
+    <string name="button_text">Show Data</string>
+
+    //Data
+    <string name="your_data">Your Data</string>
+</resources>
