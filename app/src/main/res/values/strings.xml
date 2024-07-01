@@ -5,6 +5,19 @@
     <string name="email">Email</string>
     <string name="full_name">Full Name</string>
     <string name="username">Username</string>
+    <string name="gender">Gender</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="your_data">Your Data</string>
+    <string name="see_data_here">See Data Here</string>
+
+    //Radio Button
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+
+    //CheckBox
+    <string name="sports">Sports</string>
+    <string name="gaming">Gaming</string>
 
     //Hint
     <string name="email_hint">example@gmail.com</string>
@@ -13,7 +26,5 @@
 
     //Button
     <string name="button_text">Show Data</string>
-
-    //Data
-    <string name="your_data">Your Data</string>
+    <string name="button_text_here">Show Data On This Screen</string>
 </resources>
