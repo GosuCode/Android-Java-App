@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
@@ -27,12 +28,20 @@ public class HomeActivity extends AppCompatActivity {
         EditText email = findViewById(R.id.Email);
         Button btnShow = findViewById(R.id.ShowData2);
         TextView allData = findViewById(R.id.see_data_here);
-//        RadioGroup gender = findViewById(R.id.gender);
+        RadioGroup radioGroup = findViewById(R.id.select_gender);
+
+
         btnShow.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                allData.setText("Username :" + username.getText() + "\nEmail :" + email.getText());
+                String gender = "";
+                int selectedId = radioGroup.getCheckedRadioButtonId();
+                if(selectedId != -1){
+                    RadioButton selectedGender = findViewById(selectedId);
+                    gender = selectedGender.getText().toString();
+                }
+                String msg = "Username :" + username.getText() + "\nEmail :" + email.getText() + "\nGender" + gender;
+                allData.setText(msg);
             }
         });
     }
