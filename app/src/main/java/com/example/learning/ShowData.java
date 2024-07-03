@@ -24,9 +24,11 @@ public class ShowData extends AppCompatActivity {
         TextView showDataTextView = findViewById(R.id.YourData);
 
         Intent intent = getIntent();
-        String name = intent.getStringExtra("name");
-        String email = intent.getStringExtra("email");
+        String name = intent.getStringExtra("Name");
+        String email = intent.getStringExtra("Mail");
+        String gender = intent.getStringExtra("Gender");
+        String hobbies = intent.getStringExtra("Hobbies");
 
-        showDataTextView.setText("Username: " + name + "\nEmail: " + email);
+        showDataTextView.setText("Username: " + name + "\nEmail: " + email + "\nGender" + gender + "\nHobbies" + hobbies);
     }
 }
