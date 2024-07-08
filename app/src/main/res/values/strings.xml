@@ -40,6 +40,11 @@
     //TextViews
     <string name="num1">First Num</string>
     <string name="num2">Second Num</string>
+    <string name="result">Result</string>
+
+    //EditText
+    <string name="_2">2</string>
+
     //Button
     <string name="sum">+</string>
     <string name="sub">-</string>
