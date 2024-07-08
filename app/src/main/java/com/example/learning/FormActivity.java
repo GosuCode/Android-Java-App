@@ -1,6 +1,5 @@
 package com.example.learning;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,11 +12,8 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class HomeActivity extends AppCompatActivity {
+public class FormActivity extends AppCompatActivity {
 
     private CheckBox checkBox1;
     private CheckBox checkBox2;
@@ -26,7 +22,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_form);
 
         EditText username = findViewById(R.id.Username);
         EditText email = findViewById(R.id.Email);
@@ -95,5 +91,10 @@ public class HomeActivity extends AppCompatActivity {
         intent.putExtra("Gender", gender);
         intent.putExtra("Hobbies", hobbies.toString());
         startActivity(intent);
+    }
+
+    public void gotoHome(View view) {
+        Intent goBack = new Intent(this, HomeScreen.class);
+        startActivity(goBack);
     }
 }

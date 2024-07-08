@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Alu the Great</string>
 
+    <string name="calculator">Calculator</string>
+    <string name="form">Form</string>
+
+    <string name="formButton">gotoForm</string>
+    <string name="calculatorButton">gotoForm</string>
     //TextViews
     <string name="email">Email</string>
     <string name="full_name">Full Name</string>
@@ -28,4 +33,16 @@
     //Button
     <string name="button_text">Show Data</string>
     <string name="button_text_here">Show Data On This Screen</string>
+
+    //Calculator
+    <string name="back">Go Back</string>
+    //TextViews
+    <string name="num1">First Num</string>
+    <string name="num2">Second Num</string>
+    //Button
+    <string name="sum">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+
 </resources>
