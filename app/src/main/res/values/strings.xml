@@ -3,6 +3,7 @@
 
     <string name="calculator">Calculator</string>
     <string name="form">Form</string>
+    <string name="fragment">Fragment</string>
 
     <string name="formButton">gotoForm</string>
     <string name="calculatorButton">gotoForm</string>
@@ -44,5 +45,13 @@
     <string name="sub">-</string>
     <string name="mul">*</string>
     <string name="div">/</string>
+
+    //Fragments
+
+    <string name="hello_first_fragment">Hello First fragment</string>
+    <string name="hello_second_fragment">Hello Second fragment</string>
+    <string name="hello_third_fragment">Hello Third fragment</string>
+
+
 
 </resources>

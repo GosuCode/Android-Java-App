@@ -73,6 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="addNum"
+                android:layout_margin="10dp"
                 android:text="@string/sum" />
 
             <Button
@@ -80,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="subNum"
+                android:layout_margin="10dp"
                 android:text="@string/sub" />
         </TableRow>
 
@@ -92,6 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_margin="10dp"
                 android:onClick="mulNum"
                 android:text="@string/mul" />
 
@@ -100,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="divNum"
+                android:layout_margin="10dp"
                 android:text="@string/div" />
         </TableRow>
     </TableLayout>

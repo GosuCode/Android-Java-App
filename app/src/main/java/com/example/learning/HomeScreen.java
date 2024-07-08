@@ -27,8 +27,12 @@ public class HomeScreen extends AppCompatActivity {
     }
 
     public void gotoCalculator(View view) {
-        System.out.println("is it working?");
         Intent calc = new Intent(this, CalculatorActivity.class);
         startActivity(calc);
+    }
+
+    public void fragment(View view) {
+        Intent frag = new Intent(this, FragmentActivity.class);
+        startActivity(frag);
     }
 }

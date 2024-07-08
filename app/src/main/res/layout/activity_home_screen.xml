@@ -15,21 +15,32 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:padding="10dp"
             >
 
             <Button
                 android:id="@+id/Form"
                 android:layout_width="wrap_content"
-                android:layout_height="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:onClick="gotoForm"
                 android:text="@string/form" />
 
             <Button
                 android:id="@+id/Calculator"
                 android:layout_width="wrap_content"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:onClick="gotoCalculator"
                 android:text="@string/calculator" />
+
+            <Button
+                android:id="@+id/Fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fragment"
+                android:layout_margin="10dp"
+                android:text="@string/fragment" />
         </TableRow>
     </TableLayout>
 
