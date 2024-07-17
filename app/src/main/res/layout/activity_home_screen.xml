@@ -13,11 +13,9 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:padding="10dp"
+            android:layout_height="654dp"
             android:gravity="center"
-            >
+            android:padding="10dp">
 
             <Button
                 android:id="@+id/Form"
@@ -39,10 +37,21 @@
                 android:id="@+id/Fragment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="fragment"
                 android:layout_margin="10dp"
+                android:onClick="fragment"
                 android:text="@string/fragment" />
+
         </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/dropdown_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="dropdown"
+                android:layout_margin="10dp"
+                android:text="Dropdown Menu" />
+        </TableRow>
+
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
