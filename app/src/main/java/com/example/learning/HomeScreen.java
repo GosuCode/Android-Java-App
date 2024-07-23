@@ -23,13 +23,6 @@ public class HomeScreen extends AppCompatActivity {
         Button calculator = findViewById(R.id.Calculator);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.nav_menu, menu);
-        return true;
-    }
-
     public void gotoForm(View view) {
         Intent form = new Intent(this, FormActivity.class);
         startActivity(form);
