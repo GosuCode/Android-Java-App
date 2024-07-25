@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Learning"
         tools:targetApi="31">
         <activity
-            android:name=".PopupMenuActivity"
+            android:name=".DialogActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".PopupMenuActivity"
+            android:exported="true"/>
+        <activity
             android:name=".DropdownMenuActivity"
             android:exported="false" />
         <activity
@@ -29,9 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".HomeScreen"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"/>
         <activity
             android:name=".CalculatorActivity"
             android:exported="true" />
