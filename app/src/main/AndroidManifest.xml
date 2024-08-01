@@ -14,7 +14,7 @@
         tools:targetApi="31">
         <activity
             android:name=".DialogActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".PopupMenuActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".DropdownMenuActivity"
             android:exported="false" />
@@ -32,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".HomeScreen"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".CalculatorActivity"
             android:exported="true" />
